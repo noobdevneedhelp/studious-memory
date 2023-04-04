@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <style type="text/css">
+            body {
+                background-image: url(https://www.colorbook.io/imagecreator.php?hex=DCDCDC&width=1920&height=1080&text=%201920x1080);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 180%;
+            }
+            h1 {
+                width: 214px;
+                height: 291px;
+                position: fixed;
+                width: 214px; left: 600px; top: 265px; z-index: 10;
+            }
+            bg--1 {
+                display: none;
+                position: fixed
+                width: 200px}
+
+.bg--1.show{
+    display:block;
+    opacity: 0;
+    animation:fadeIn ease-in-out .5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+.bg--2.show{
+    display:block;
+    opacity: 0;
+    animation:fadeIn ease-in-out .5s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+.bg--3.show{
+    display:block;
+    opacity: 0;
+    animation:fadeIn ease-in-out .5s;
+    animation-delay: 2.2s;
+    animation-fill-mode: forwards;
+}
+.bg--4.show{
+    display:block;
+    opacity: 0;
+    animation:fadeIn ease-in-out .5s;
+    animation-delay: 2.4s;
+    animation-fill-mode: forwards;
+}
+.bg--8.show{
+    display:block;
+    opacity: 0;
+    animation:fadeIn ease-in-out .5s;
+    animation-delay: 3.2s;
+    animation-fill-mode: forwards;
+}
+.bg--5.show{
+    display:block;
+    opacity: 0;
+    animation:fadeInOut ease-in-out 2s;
+    animation-delay: 2.8s;
+    animation-iteration-count: infinite;
+}
+
+.fadeInOut {
+    animation-name: fadeInOut;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;}
+
+.share {
+    background-image: url(https://www.sanrio.co.jp/special/doraemon/assets/img/common/share--title.png);
+    background-size: 47px auto;
+    width: 94px;
+    height: 26px;
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    margin-top: -66px;
+    z-index: 10;
+}
+@keyframes fadeInOut{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fadeIn{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes fadeOut {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+ 
+        </style>
+
+        <script type="text/javascript" src="JSweb.js">
+        </script>
+    </head>
+    <body onload="showImage()">
+        <h1>
+        <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/dora.png" width="317" height="431" alt="Doraemon"/>
+        </h1>
+    <!--first page-->
+        <div class="bg--1 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--1.gif" width="938" height="39" style="display: block; margin: auto; margin-top: 70px;">  
+        </div>
+        <div class="bg--2 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--2.gif" width="571" height="92" style="display: block; margin: auto; margin-top: 20px;">
+        </div>
+        <div class="bg--3 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--3.gif" width="115" height="104" style="display:block; margin-left: 330px; margin-top: -100px;">
+        </div>
+        <div class="bg--4 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--4.png" width="116" height="118.5" style="display:block; margin-left: 1070px; margin-top: -120px;">
+        </div>
+        <div class="bg--5 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--5.png" width="130" height="41" style="display:block; margin-left:400px; margin-top:200px">
+        </div>
+        <div class="bg--8 show">
+            <img src="https://www.sanrio.co.jp/special/doraemon/assets/img/top/bg--8.gif" width="572" height="109" style="display:block; margin-left: 280px; margin-top: -220px;">
+        </div>
+        <ul class="share">
+            <li></li>
+
+        </ul>
+    </body>
+    </html>
